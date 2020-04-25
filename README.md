@@ -24,3 +24,10 @@
       - (run)     
       **Si desea agrar o ordenar otros numeros modificar en archivo en la parte *deffacts vector*, Tener en cuenta el Index**
       
+## Para el ejercicio de Reglas de Letras
+**1** Descargar el [**ordenarVectorBurbuja.clp**](https://github.com/RicardoVinicioJara/Deberes-SE/blob/master/ReglasLetras.clp)
+**2** Ejecutar en clips:        
+      - (load "ReglasLetras.clp")      
+      - (reset)         
+      - (run)  
+      
