@@ -38,3 +38,10 @@
       - (reset)         
       - (run) 
       - [Selecionar las opciones deacuerdo a los menus presentados]
+
+## Para el ejercicio de Familia
+**1** Descargar el [**familia.clp**](https://github.com/RicardoVinicioJara/Deberes-SE/blob/master/familia.clp)    
+**2** Ejecutar en clips:        
+      - (load "familia.clp")      
+      - (reset)         
+      - (run)
