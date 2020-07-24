@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BIF VERSION="0.3"  xmlns="http://www.cs.ubc.ca/labs/lci/fopi/ve/XMLBIFv0_3"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.cs.ubc.ca/labs/lci/fopi/ve/XMLBIFv0_3 http://www.cs.ubc.ca/labs/lci/fopi/ve/XMLBIFv0_3/XMLBIFv0_3.xsd">
+<NETWORK>
+<NAME>Untitled</NAME>
+<PROPERTY>detailed = </PROPERTY>
+<PROPERTY>short = </PROPERTY>
+
+<VARIABLE TYPE="nature">
+	<NAME>Bolsa</NAME>
+	<OUTCOME>A</OUTCOME>
+	<OUTCOME>AZ</OUTCOME>
+	<OUTCOME>R</OUTCOME>
+	<PROPERTY>position = (7164.0, 5005.0)</PROPERTY>
+</VARIABLE>
+
+<VARIABLE TYPE="nature">
+	<NAME>Sorteo</NAME>
+	<OUTCOME>G</OUTCOME>
+	<OUTCOME>P</OUTCOME>
+	<PROPERTY>position = (7443.0, 5010.0)</PROPERTY>
+</VARIABLE>
+
+<DEFINITION>
+	<FOR>Bolsa</FOR>
+	<TABLE>0.37 0.4 0.23</TABLE>
+</DEFINITION>
+
+<DEFINITION>
+	<FOR>Sorteo</FOR>
+	<GIVEN>Bolsa</GIVEN>
+	<TABLE>0.3 0.7 0.27 0.73 0.43 0.57</TABLE>
+</DEFINITION>
+</NETWORK>
+</BIF>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BIF VERSION="0.3"  xmlns="http://www.cs.ubc.ca/labs/lci/fopi/ve/XMLBIFv0_3"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.cs.ubc.ca/labs/lci/fopi/ve/XMLBIFv0_3 http://www.cs.ubc.ca/labs/lci/fopi/ve/XMLBIFv0_3/XMLBIFv0_3.xsd">
+<NETWORK>
+<NAME>Untitled</NAME>
+<PROPERTY>detailed = </PROPERTY>
+<PROPERTY>short = </PROPERTY>
+
+<VARIABLE TYPE="nature">
+	<NAME>maquinas</NAME>
+	<OUTCOME>M1</OUTCOME>
+	<OUTCOME>M2</OUTCOME>
+	<OUTCOME>M3</OUTCOME>
+	<PROPERTY>position = (7114.0, 5049.0)</PROPERTY>
+</VARIABLE>
+
+<VARIABLE TYPE="nature">
+	<NAME>Azar</NAME>
+	<OUTCOME>T</OUTCOME>
+	<OUTCOME>F</OUTCOME>
+	<PROPERTY>position = (7335.0, 5055.0)</PROPERTY>
+</VARIABLE>
+
+<VARIABLE TYPE="nature">
+	<NAME>canditados</NAME>
+	<OUTCOME>Carlos</OUTCOME>
+	<OUTCOME>Juan</OUTCOME>
+	<OUTCOME>Luis</OUTCOME>
+	<PROPERTY>position = (7107.0, 5226.0)</PROPERTY>
+</VARIABLE>
+
+<VARIABLE TYPE="nature">
+	<NAME>barajan</NAME>
+	<OUTCOME>T</OUTCOME>
+	<OUTCOME>F</OUTCOME>
+	<PROPERTY>position = (7358.0, 5239.0)</PROPERTY>
+</VARIABLE>
+
+<VARIABLE TYPE="nature">
+	<NAME>Node 4</NAME>
+	<OUTCOME>T</OUTCOME>
+	<OUTCOME>F</OUTCOME>
+	<PROPERTY>position = (7496.0, 5054.0)</PROPERTY>
+</VARIABLE>
+
+<DEFINITION>
+	<FOR>maquinas</FOR>
+	<TABLE>0.27 0.43 0.3</TABLE>
+</DEFINITION>
+
+<DEFINITION>
+	<FOR>Azar</FOR>
+	<GIVEN>maquinas</GIVEN>
+	<TABLE>0.07 0.93 0.05 0.95 0.04 0.96</TABLE>
+</DEFINITION>
+
+<DEFINITION>
+	<FOR>canditados</FOR>
+	<TABLE>0.4 0.3 0.3</TABLE>
+</DEFINITION>
+
+<DEFINITION>
+	<FOR>barajan</FOR>
+	<GIVEN>canditados</GIVEN>
+	<TABLE>0.05 0.95 0.2 0.8 0.6 0.4</TABLE>
+</DEFINITION>
+
+<DEFINITION>
+	<FOR>Node 4</FOR>
+	<GIVEN>Azar</GIVEN>
+	<TABLE>0.52 0.48 0.43 0.57</TABLE>
+</DEFINITION>
+</NETWORK>
+</BIF>
